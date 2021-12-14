@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="ConsoleApp6.Sick">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sick.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Condition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ConsoleApp6.Visitor">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp6.Doctor">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Sick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp6.Procedures">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp6.Program">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <AssociationLine Name="sw" Type="System.IO.StreamWriter" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="3.5" />
+        <Point X="12.375" Y="3.5" />
+        <Point X="12.375" Y="4.596" />
+        <Point X="11.75" Y="4.596" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAAAQAAAAAIAAABAAAAAEAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="doctor" />
+      <Field Name="procedure" />
+      <Field Name="sw" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.IO.StreamWriter" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="ConsoleApp6.Condition">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
